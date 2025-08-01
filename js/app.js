@@ -85,9 +85,6 @@
 //   }
 // }
 
-const random = Math.trunc(Math.random() * (66 - 44 + 1)) + 44;
-console.log(random);
-
 // let num = prompt("1 dan 999 gacha son kiriting:");
 
 // if (num < 1 || num > 999 || isNaN(num)) {
@@ -190,4 +187,29 @@ console.log(random);
 //   }
 
 //   alert(result.trim());
+// }
+
+// let y = "y";
+// let n = "n";
+
+// let min = 44;
+// let max = 66;
+// let gas = true;
+
+// let random_son = Math.floor(Math.random() * (max - min + 1)) + min;
+
+// while (gas) {
+//   let answer = prompt(`Siz o'ylagan son ${random_son} mi?`);
+
+//   if (answer == y) {
+//     alert(`Siz o'ylagan son ${random_son} ekan`);
+//     console.log(random_son);
+
+//     gas = false;
+//     break;
+//   }
+
+//   if (answer == n) {
+//     random_son = Math.floor(Math.random() * (max - min + 1)) + min;
+//   }
 // }
